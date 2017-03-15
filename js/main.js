@@ -1,18 +1,18 @@
 (function() {
     var n = 0;
-    var t = document.title; // original page title
+    var t = document.title;
     var f = function() {
         n ++;
         switch (n) {
             case 3: 
-                n = 1; // no break, so continue to next label
+                n = 1;
             case 1: 
                 document.title = 'Aaron Mohr'; 
                 break;
             default: 
                 document.title = 'Needs A Job';
         }
-        window.setTimeout(f, 800); // every 500ms, adjust if necessary
+        window.setTimeout(f, 800);
     }
-    f(); // start the animation
+    f();
 })();
