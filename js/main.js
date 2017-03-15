@@ -12,7 +12,7 @@
             default: 
                 document.title = 'Needs A Job';
         }
-        window.setTimeout(f, 600); // every 500ms, adjust if necessary
+        window.setTimeout(f, 800); // every 500ms, adjust if necessary
     }
     f(); // start the animation
 })();
